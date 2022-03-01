@@ -33,15 +33,17 @@ int main(){
 	// Specifying the number of array elements
 	int count;
 
+
+	// Taking Input for `count`
+	cout << "\nHow many Employees you want to create? : ";
+	cin >> count;
+
 	// Declaring EMPLOYEE array
 	EMPLOYEE Emps[count];
 
 	// Creating Special object Parameterized Constructor
 	EMPLOYEE emp(1);
 
-	// Taking Input for `count`
-	cout << "\nHow many Employees you want to create? : ";
-	cin >> count;
 
 	// Taking Input
 	for(int i = 0 ; i < count ; i++){
